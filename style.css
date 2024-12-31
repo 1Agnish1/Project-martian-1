@@ -1,0 +1,546 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Montserrat' ;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#same-page{
+    height:100vh;
+
+}
+#navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 67px;
+      padding: 0 20px ;
+      width: 100%;
+      max-width: 1250px;
+      margin:auto;
+       
+
+}
+
+#logo{
+ 
+ font-size:  34px;
+ color: #054C73; 
+ font-weight: 700;
+}
+#navbar ul{
+    display: flex;
+    gap: 30px;
+    
+    
+    
+}
+#navbar ul li{
+    list-style: none;
+
+
+    
+    
+}
+#navbar ul li a {
+      color: #333333 ;
+      font-weight: 600;
+    text-decoration: none;
+
+
+}
+#hero-section{
+    display: flex;
+    background: url('/Assets/Hero section/scandinavian-interior-mockup-wall-decal-background\ 1.png')no-repeat center center/cover;
+    height: calc(100vh - 66px); 
+    position: relative;
+    bottom: 66px;
+    top:2px; 
+    
+}
+
+
+ #card1{
+    background-color:#DFE9F4;
+    position: absolute;
+    top:150px;
+   right: 150px;
+    padding: 20px;
+    height: 350px;
+    width: 520px;
+    border-radius:8px;
+    border: none;
+    
+    /* font-family:'Montserrat'; */
+
+}
+#card1 .arrivals{
+color:#333333;
+ 
+}
+#card1 .h_primary{
+    color:#054C73;
+    font-size:52px;
+    font-weight: 700;
+    margin-bottom: 12px ;
+}
+#card1 p{
+font-weight: 450;
+font-size: 18px;
+line-height: 30px;
+margin-bottom:12px;
+}
+#services-container{
+    background-color: #F2F5FF;
+    
+    
+}
+#services{
+
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    width: 100%;
+    max-width: 1250px;
+    margin:auto;
+
+
+}
+#services .box{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+
+}
+#services .box img{
+    /* padding-top: 5px;
+    padding-right: 10px; */
+    padding:5px 10px 0px 0px;
+    height: 40px;
+
+}
+/* #services .box .content{
+     margin-left: 10px; 
+} */
+
+/* #collection-container{
+    /* background-color: #DFE9F4; */
+    
+
+#collections{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    /* */
+
+
+
+
+}
+#collections .container{
+    display: flex;
+     justify-content: center; 
+    height:416px ;
+    width: 100%;
+    max-width: 1250px;
+    margin:auto;
+
+
+}
+#collections .content{
+    margin-top: 20px;
+}
+#collections .content h3{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#collections .container .box{
+       height: 294px;
+       margin: 48px;
+       overflow: hidden;
+}
+#Beautify-container{
+   
+    height:467px ;
+    
+    
+    
+}
+#beautify{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F5FF;
+    height: 100%;
+    position: relative;
+   
+    
+}
+#beautify .card2{
+    display: flex;
+     width:50%; 
+    flex-direction: column;
+    
+    padding-right: 50px;
+
+    }
+
+    #beautify .card2 h1{
+        margin-bottom: 20px;
+    }
+    #beautify .card2 p{
+        margin-bottom: 20px;
+        /* padding: 10px; */
+    
+    }
+#beautify .box4{
+    height: 400px;
+    width: 300px;
+   border-radius:40px 10px;
+    /* overflow: hidden;  */
+    background-color: #7886de;
+      position: relative;  
+     
+    
+
+}
+
+
+
+#beautify .box4 .image1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position:absolute;
+     border-radius:40px 10px;
+    
+    
+
+}
+#beautify .box4 .spherical_green{
+
+    background-color: #09513B;
+    border-radius: 100%;
+    width:100%;
+    height: 60%;
+    position:absolute;
+    top: 65px;
+    left: 50px;
+}
+#products-container{
+    /* background-color: #8e1010; */
+     height:100%;
+     width:100%
+}
+#products{
+    /* background-color: #f3a5a5; */
+     
+     width:94%;
+     
+    margin: auto;
+    
+}
+#products .content2{
+text-align: center;
+ 
+}
+#products .content2 h1{
+    padding: 10px;
+
+}
+#products .content2 p{
+    margin-bottom: 30px;
+
+}
+
+#products .container2{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #6c65f1; */
+    
+}
+#products .container2 .box{
+    /* background-color: #fff; */
+     width: 285px; 
+
+    
+    
+    
+
+
+}
+#products .container2 .box p{
+    
+    text-align: center;
+    font-weight: 600;
+    margin:20px 0px;
+}
+#products .container2 .box .image2{
+    
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#Work-container{
+    height: 100%;
+    width: 100%;
+    /* background-color: #1f3d79; */
+    margin-bottom: 100px;
+     
+}
+#Work{
+    /* background-color: rgb(150, 53, 159); */
+     width:94%;
+    
+     
+    margin: auto;
+
+}
+#Work .content3{
+   text-align: center;
+}
+#Work .content3 h1{
+    
+    margin: 30px 0px 10px 0px;
+
+}
+#Work .content3 p{
+    margin-bottom: 30px;
+
+}
+#Work .container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+#Work .container3 .box{
+     /* background-color: #e79494;  */
+     width: 285px; 
+     position:relative
+     /* overflow: hidden; */
+}
+#Work .container3 .box .image3{
+    
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#Work .container3 .box .white {
+    background-color: #fff;
+    height:55px ;
+    width: 55px;
+    border-radius: 100%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%)
+}
+#Work .container3 .box .white .black{
+     background-color:black;
+    height: 70%;
+    width: 70%;
+    border-radius: 100%;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%)
+    
+
+}
+#Work .container3 .box .white .black p{
+    color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%)
+}
+#Work .container3 .box .about{
+    text-align: center;
+}
+#Work .container3 .box .about h4{
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+#join-container{
+    width:100%;
+    height:300px;
+    background-color: #F2F5FF;
+
+}
+#join{
+    width: 50%;
+    height:100%;
+    /* background-color: #09513B; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    
+}
+#join .content4{
+    text-align: center;
+    margin-bottom:20px;
+
+    width: 100%;
+
+}
+#join .content4 h1{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    
+}
+#join .content4 p{
+    /* padding-top: 20px;
+    margin-bottom: 10px; */
+    line-height: 25px;
+    
+}
+
+#join .container4{
+    /* background-color: #701d1d; */
+    height: 40px;
+    width: 100%;
+    
+    
+}
+
+
+#join .container4 form {
+    /* background-color: rgb(140, 178, 211); */
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#join .container4 form input{
+    height:90%;
+    width:35%;
+    border-radius: 3px;
+}
+ input::placeholder{
+    padding-left:10px;
+}
+
+#join .container4 form .bttn{
+    height:90%;
+    width:80px;
+    background-color:#054C73;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+#joinus-container{
+    /* background-color:red; */
+    width: 100%;
+    margin: auto;
+}
+#joinus{
+    display: flex;
+    background-color:#03344f;
+    color: #fff;
+    
+    
+    
+}
+#joinus .content5{
+    /* background-color: #7886de; */
+    width: 35%;
+      margin: auto;
+    padding: 20px  30px;
+    
+}
+#joinus .content5 h2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+    
+}
+#joinus .content5 .para p{
+    padding-bottom:30px;
+    line-height: 40px;
+}
+#joinus .content5 .follow p{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+#joinus .container5{
+    /* background-color: #373434; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width:65%;
+    height: 100%;
+    margin:auto;
+
+    
+    
+}
+
+
+#joinus .container5 h2{
+    /* background-color: #09513B; */
+
+    /* padding: 40px;
+    margin-left:  18px; */
+    padding:20px
+
+
+}
+
+#joinus .container5 .allimages {
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+    margin-bottom: 30px;
+    padding-left:20px 
+
+}
+#joinus .container5 .allimages .box{
+    padding-right: 15px;
+}
+
+
+
+
+
+
+.btn{
+    border-radius: 50px;
+    height: 45px;
+    width: 150px;
+    background-color:#054C73;
+    color: #DFE9F4;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.position1{
+    position: relative;
+    bottom: 20px;
+}
