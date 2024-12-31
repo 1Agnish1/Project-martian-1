@@ -1,1 +1,1 @@
-A basic front-end website using HTML and CSS
+A basic front-end page using HTML and CSS
